@@ -64,6 +64,22 @@ N_slice： Normal图切了几段
 N1： Normal图如果分段，第1段最后一图的图号
     ...
 '''
+class Map20230630(HuodongMapBase):
+    N_slice = 3
+    N1 = 5
+    N2 = 13
+    NAME = "无限夏日计划 两人独占的盛夏乐园"
+    XY11 = (133, 321)
+    XY21 = (254, 272)
+    XY31 = (208, 262)
+    XY_VH_BOSS = (860, 285)
+    HARD_COORD = {
+        1: (119, 336),
+        2: (274, 193),
+        3: (413, 264),
+        4: (535, 353),
+        5: (674, 243),
+    }
 
 
 class Map20230630(HuodongMapBase):
