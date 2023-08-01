@@ -1,6 +1,6 @@
  <img src="webclient/src/assets/logo.jpg" width = "80%" height = "80%" alt="LOGO" align=center />
 
-# Princess connection 公主连结农场脚本v2.8.20230716
+# Princess connection 公主连结农场脚本v2.8.20230731
 
 ![](https://img.shields.io/badge/license-GPL--3.0-blue)![](https://img.shields.io/badge/opencv-2.0-blue)![](https://img.shields.io/badge/UIAutomator-2-blue)
 
@@ -306,6 +306,36 @@ Tips:QQPush机器人经常换号 ~~Wechat在4月底将全部弃用，转Wework~~
 
 <details>
 <summary>更新日志（点击展开）</summary>
+
+2023/07/31 By UVJkiNTQ
+- 惯例更新
+  - 活动`慈乐之音的夏日演唱会 转瞬即逝的时光` 
+- Bug修复
+  - 角色升级`s8`中有体力不刷图的问题
+
+
+2023/07/26 By TheAutumnOfRice
+
+- Bug修复
+  - 尝试修复`tuitu-ocr`章节动画必卡死的问题
+
+2023/07/24 By 0x114514BB
+
+- BUG修复
+  - 修复过主线剧情任务`t8`闪退，并进行流程优化
+
+2023/07/20 By TheAutumnOfRice
+
+- 功能更新
+  - 控制台新增`restart`命令，可以重新开始当前任务。
+  - 自动规划刷图`s9-auto`设置最高图号为max时，不再读取数据库的最高数据，而是直接读constant.MAX_MAP。具体数值会动态显示于参数描述中。
+  - 添加了新的`schedule`的触发条件`last_schedule`:在前置子任务完成后触发。
+
+2023/07/18 By 0x114514BB
+
+- 惯例更新
+  - 复刻活动`七夕剑客旅情谭 天际川流夏之恋`
+  - 外传`16``17`图
 
 2023/07/16 By 0x114514BB
 
