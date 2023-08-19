@@ -227,6 +227,7 @@ JUQING_BTN = {
     "auto": p(806, 100, img="img/juqing/auto.bmp", at=(793, 90, 819, 111)),
     "rong": p(595, 193, img="img/juqing/rong.bmp", at=(588, 185, 603, 202)),  # 新内容的“容”
     "return": p(31, 30, img="img/huodong/return.bmp", at=(15, 21, 47, 40)),
+    "jiesuotiaojian": p(480, 86, img="img/juqing/jiesuotiaojian.bmp", at=(434, 72, 526, 100)),
 }
 
 LIWU_BTN = {
@@ -280,7 +281,7 @@ WZ_BTN = {
     "boss_pass": p(701, 223, img="img/waizhuan/boss_pass.bmp", at=(694, 217, 709, 229)),
     "enter_wz": p(587, 476, img="img/waizhuan/enter_wz.bmp", at=(542, 460, 632, 493)),
     "speaker_box": p(188, 405, img="img/waizhuan/speaker_box.bmp", at=(182, 392, 195, 418)),
-    "shujuxiazai": p(479, 146, img="img/waizhuan/shujuxiazai.bmp", at=(435, 134, 523, 159)),
+    "shujuxiazai": p(479, 146, img="img/waizhuan/shujuxiazai.bmp"),
     "shujuxiazai_ok": p(588, 369, img="img/hanghui/hanghui_ok.bmp", at=(557, 354, 620, 385)),
     "shadow_waizhuan": p(61, 33, img="img/waizhuan/shadow_waizhuan.bmp", at=(2, 6, 120, 61)),
     "speaker_box2": p(376, 406, img="img/waizhuan/speaker_box2.bmp", at=(370, 392, 383, 420)),
@@ -2595,6 +2596,7 @@ RANKS_DICT = {
     19: p(img="img/ranks/19.bmp", at=(213, 111, 281, 135)),
     20: p(img="img/ranks/20.bmp", at=(216, 115, 280, 131)),
     21: p(img="img/ranks/21.bmp", at=(216, 114, 280, 133)),
+    22: p(img="img/ranks/22.bmp", at=(209, 105, 285, 128)),
 }
 USER_DEFAULT_DICT = {
     # 给self.AR.get用的初值dict
